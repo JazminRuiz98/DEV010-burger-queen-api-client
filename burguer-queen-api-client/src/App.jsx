@@ -1,3 +1,36 @@
+// import { useState } from 'react'
+import logoBurger from './assets/logo-burger-queen-1.png'
+import './App.css'
+
+function App() {
+  // const [count, setCount] = useState(0)
+
+  return (
+    <>
+      <div>
+          <img src={logoBurger} className="logo" alt="Logo Burger Queen" />
+          <h1>Burger Queen</h1>
+      </div>
+      <div className="card">
+        <div>
+          <textarea className="" placeholder='Ingrese el correo electronico del empleado'></textarea>
+        </div>
+        <div>
+          <textarea type="password" placeholder='Contraseña'></textarea>
+        </div>
+      </div>
+      <button>
+          Ingresar
+      </button>
+    </>
+  )
+}
+
+export default App
+
+/*
+Código ejemplo 
+
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
@@ -33,3 +66,4 @@ function App() {
 }
 
 export default App
+*/
